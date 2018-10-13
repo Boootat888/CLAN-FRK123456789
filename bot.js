@@ -247,6 +247,8 @@ if (message.content.startsWith(prefix + 'mypoints')) {
             })
     
     });
+
+
 client.on("message", function(message) {
    if(message.content.startsWith(prefix + "rps")) {
     let messageArgs = message.content.split(" ").slice(1).join(" ");
@@ -589,7 +591,7 @@ if (!points[message.author.id]) points[message.author.id] = {
 
   if(!message.guild) return;
 
-    let id = message.author.id,prefix="!";
+    let id = message.author.id,prefix="-";
 
     if (spee[id] && (new Date).getTime() - spee[id] < 15*1000) {
 
