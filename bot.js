@@ -243,12 +243,6 @@ if (message.content.startsWith(prefix + 'mypoints')) {
 
 
 
-
-            }
-    
-    });
-
-
 client.on("message", function(message) {
    if(message.content.startsWith(prefix + "rps")) {
     let messageArgs = message.content.split(" ").slice(1).join(" ");
