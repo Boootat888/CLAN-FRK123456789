@@ -245,7 +245,7 @@ if (message.content.startsWith(prefix + 'mypoints')) {
 
 
             })
-    }
+    
     });
 client.on("message", function(message) {
    if(message.content.startsWith(prefix + "rps")) {
@@ -599,7 +599,7 @@ if (!points[message.author.id]) points[message.author.id] = {
 
     }
 
-    if ( message.content == prefix+'speed'){
+    if ( message.content == prefix+'اسرع'){
 
        
 
