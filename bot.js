@@ -244,7 +244,7 @@ if (message.content.startsWith(prefix + 'mypoints')) {
 
 
 
-            })
+            }
     
     });
 
